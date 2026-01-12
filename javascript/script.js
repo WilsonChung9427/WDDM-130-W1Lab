@@ -1,7 +1,7 @@
 startBtn.addEventListener("click", function () {
     var name = prompt("What is your name?");
     var hobby = prompt("What is your favorite hobby?");
-    var food = prompt("What is your favourite movie?");
+    var movie = prompt("What is your favourite movie?");
 
     if (!name) {
         name = "Ghost";
